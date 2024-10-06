@@ -1,0 +1,16 @@
+#A program that takes in a target word and computes wether or not you can construct the target word by concatenating elements of the wordbank 
+def can_construct(target_word, wordbank):
+    if target_word == "":
+        return True
+    for word in wordbank:
+        if target_word.startswith(word):
+            new_word = target_word[len(word):]
+            if can_construct(new_word, wordbank):
+                return True
+    return False
+
+
+print(can_construct("abcdef", ["ab", "abc", "cd", "def", "abcd"]))
+print(can_construct("skateboard", ["bo", "rd", "ate", "t", "ska", "sk", "boar"]))
+print(can_construct("enterapotentpot", ["a", "p", "ent", "enter", "ot", "o", "t"]))
+print(can_construct("eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeef", ["e", "ee", "eee", "eeee", "eeeee"]))
