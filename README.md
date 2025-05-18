@@ -29,25 +29,25 @@ Return true if possible, otherwise false.
 ---
 
 4. **BestSum**
->Given a targetSum and an array of positive integers numbers, return the shortest combination of numbers >that add up to exactly the targetSum.
+>Given a targetSum and an array of positive integers numbers, return the shortest combination of numbers that add up to exactly the targetSum.
 >If there are multiple combinations with the same shortest length, return any one of them.
 >If no combination exists, return None.
 >You may reuse numbers as many times as needed.
 
 ---
 5. **CanConstruct**
->Given a target string and an array of strings wordBank, determine if the target can be constructed by >concatenating elements of the wordBank array.
+>Given a target string and an array of strings wordBank, determine if the target can be constructed by concatenating elements of the wordBank array.
 >You can reuse elements of wordBank as many times as needed.
 >Return True if the target can be constructed, otherwise False.
 
 ---
 6. **CountConstruct**
->Given a target string and an array of strings wordBank, return how many ways the target can be         >constructed by concatenating elements of wordBank.
+>Given a target string and an array of strings wordBank, return how many ways the target can be         constructed by concatenating elements of wordBank.
 >You can reuse elements of wordBank as many times as needed.
 
 ---
 7. **AllConstruct**
->Given a target string and an array of strings wordBank, return a 2D list containing all the ways that the >target can be constructed by concatenating elements of wordBank.
+>Given a target string and an array of strings wordBank, return a 2D list containing all the ways that the target can be constructed by concatenating elements of wordBank.
 >You can reuse elements of wordBank as many times as needed.
 >Each way should be represented as a list of strings.
 
