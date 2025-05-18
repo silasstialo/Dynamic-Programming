@@ -1,4 +1,4 @@
-#Dynamic programming problems
+# Dynamic programming problems
 ---
 
 Solving dynamic programming questions using tabulation and memorization techniques in Python programming languages
@@ -11,11 +11,11 @@ Solving dynamic programming questions using tabulation and memorization techniqu
 
 2. **Grid Traveller:**
 >You're on a grid with dimensions m x n (rows by columns), starting at the top-left corner (0,0), and your goal is to travel to the bottom-right corner (m-1,n-1).
-##You can only move:
+>## You can only move:
 >1. Down
 >2. Right
 
-##Question:
+>## Question:
 
 >How many unique ways can you travel from the top-left to the bottom-right?
 
